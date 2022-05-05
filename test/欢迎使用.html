@@ -19,7 +19,7 @@
 
 #### 锚标题
 
-~~~
+~~~@blue
 ## 一、markdown语法简要说明@{第一章}
 
 链接方法：
@@ -35,7 +35,7 @@ __加粗__
 *斜体*
 _斜体_
 
-~~~
+~~~@green
 **加粗**
 __加粗__
 *斜体*
@@ -61,7 +61,7 @@ _斜体_
 
 [![百度图标，在链接失效的时候显示，本文字](https://www.baidu.com/img/baidu_jgylogo3.gif)](http://www.baidu.com)
 
-```
+```@yellow
 [查看第一章](#第一章)
 
 [百度超链接](http://www.baidu.com)
@@ -85,7 +85,7 @@ _斜体_
 第二行可以不写尖括号  
 换行的话，要在上一行结尾加两个空格
 
-```
+```@red
 > 这是一段引用  
 第二行可以不写尖括号  
 换行的话，要在上一行结尾加两个空格
@@ -105,7 +105,7 @@ _斜体_
     3. 第三小节
 3. 第三节
 
-```
+```@gray
 1. 第一节
 2. 第二节
     1. 第一小节（推荐每层次缩进四个空格)  
@@ -127,7 +127,7 @@ _斜体_
     + 第三小节
 + 第三节
 
-```
+```Markdown
 + 第一节
 + 第二节
     + 第一小节（推荐每层次缩进四个空格)  
@@ -150,7 +150,7 @@ _斜体_
 |单元格|单元格|单元格|
 |单元格|单元格|单元格|
 
-```
+```Markdown@blue
 |表头|表头|表头|
 |-|-|-|
 |单元格|单元格|单元格|
@@ -177,12 +177,50 @@ _斜体_
 ---
 
 ```
+
 ---
 ```
 
 
 
 
+
+### 8. 代码块
+
+~~~
+用~~~或者```包围住
+
+带颜色的代码块：~~~@blue
+~~~
+
+#### 标识语言的代码块：
+```java
+    public int main() {
+        return 0;
+    }
+```
+#### 带颜色的代码块：
+```@blue
+```@blue：蓝色
+```
+```@green
+```@green：绿色
+```
+```@yellow
+```@yellow：黄色
+```
+```@red
+```@red：红色
+```
+```@gray
+```@gray：灰色
+```
+#### 标识语言的且带颜色的代码块：
+```java@green
+    public int main() {
+        return 0;
+    }
+```
 ## 二、样例文章
 
 请欣赏样例文章：[《走进科学》](#走进科学)
@@ -288,53 +326,367 @@ _斜体_
 培根曾经说过，深窥自己的心，而后发觉一切的奇迹在你自己。这句话语虽然很短，但令我浮想联翩。 从这个角度来看， 达·芬奇曾经提到过，大胆和坚定的决心能够抵得上武器的精良。这启发了我， 科技是第一生产力，到底应该如何实现。 我认为。
 　　问题的关键究竟为何？ 科技是第一生产力，发生了会如何，不发生又会如何。 带着这些问题，我们来审视一下科技是第一生产力。 所谓科技是第一生产力，关键是科技是第一生产力需要如何写。 现在，解决科技是第一生产力的问题，是非常非常重要的。 所以， 就我个人来说，科技是第一生产力对我的意义，不能不说非常重大。 就我个人来说，科技是第一生产力对我的意义，不能不说非常重大。 了解清楚科技是第一生产力到底是一种怎么样的存在，是解决一切问题的关键。
 　　就我个人来说，科技是第一生产力对我的意义，不能不说非常重大。 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 冯学峰曾经提到过，当一个人用工作去迎接光明，光明很快就会来照耀着他。我希望诸位也能好好地体会这句话。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 而这些并不是完全重要，更加重要的问题是， 既然如此， 可是，即使是这样，科技是第一生产力的出现仍然代表了一定的意义。 在这种困难的抉择下，本人思来想去，寝食难安。 而这些并不是完全重要，更加重要的问题是， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。---->
-<head><meta charset="UTF-8"><base target="_blank"><link rel="icon" type="image/x-icon" href="https://md.littletools.ml/image/favicon.ico"><style type="text/css">*{margin:0;padding:0}body{padding:1rem;font:1rem Calibri,helvetica,arial,freesans,clean,sans-serif;line-height:1.5rem}h1,h2,h3,h4,h5,h6{border:0;margin-top:1rem}h1{text-align:center;font-size:2rem;margin-top:15rem;margin-bottom:2rem;padding-top:10rem;page-break-before:left}h2{font-size:1.8rem;margin-top:3rem;margin-bottom:2.5rem;border-top:2px solid #e0e0e0;padding-top:2rem;page-break-before:always}h1:first-child,h2:first-child{margin-top:0;border-top:none;padding-top:.25rem}h3{font-size:1.6rem;margin-top:1.6rem;margin-bottom:1.6rem}h4{font-size:1.4rem}h5{font-size:1.2rem}h6{font-size:1rem}hr{border:1px solid #ddd}p{margin-top:.7rem}blockquote{margin:1rem 0;padding-left:.6rem;border-left:5px solid #ddd;color:#555}pre{color:#444;overflow:auto;white-space:pre-wrap;word-wrap:break-word;margin:1rem 0;padding:1rem;background-color:#eee;border:1px solid #ddd;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-webkit-box-shadow:rgba(0,0,0,.07) 0 1px 2px inset}code{font:.6rem Consolas,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace}p code{padding:0 .2em;background-color:#f2f2f2;border:1px solid #ddd;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}ul{margin:0 0 0 2.5rem}ol{margin:0 0 0 2.5rem}ol ol,ol ul,ul ol,ul ul{margin-left:2rem}table{text-align:center;left:0;right:0;top:0;bottom:0;margin:.5rem auto}table th{padding:.2rem 1rem;border-bottom:1px solid #bbb}table td{padding:.2rem 1rem;border-bottom:1px solid #ddd}a{color:#4183c4;text-decoration:none}a:hover{text-decoration:underline}a code,a:link code,a:visited code{color:#4183c4}img{max-width:100%;border:0}@media screen and (min-width:768px){body{margin:10px auto;width:748px}}@media print{h1,h1:first-child{font-size:3rem;margin-top:18rem;padding-top:0;border-top-style:none}}</style><script>document.title=decodeURI(location.pathname.slice(location.pathname.lastIndexOf("/")+1,-1==location.pathname.lastIndexOf(".html")?void 0:location.pathname.lastIndexOf(".html"))),console.log("\n\n\n\nWelcome to contact >>> frcoder.lh@hotmail.com <<< for any further question.\n\n\n\n\n")</script><title>out</title></head><body style=""><h1><a href="http://md.littletools.ml"><img src="https://md.littletools.ml/image/favicon.ico" alt=""> Markdown Online 欢迎文档</a></h1>
+<head>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <link rel="icon" type="image/x-icon" href="https://md.littletools.ml/image/favicon.ico">
+    <!---css/fr-password.css---->
+    <!---js/fr-password.js---->
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 1rem;
+            font: 1rem Calibri, helvetica, arial, freesans, clean, sans-serif;
+            line-height: 1.5rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            border: 0;
+            margin-top: 1rem;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 15rem;
+            margin-bottom: 2rem;
+            padding-top: 10rem;
+            page-break-before: left;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 3rem;
+            margin-bottom: 2.5rem;
+            border-top: 2px solid #e0e0e0;
+            padding-top: 2rem;
+            page-break-before: always;
+        }
+
+        h1:first-child, h2:first-child {
+            margin-top: 0;
+            border-top: none;
+            padding-top: .25rem;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            margin-top: 1.6rem;
+            margin-bottom: 1.6rem;
+        }
+
+        h4 {
+            font-size: 1.4rem;
+        }
+
+        h5 {
+            font-size: 1.2rem;
+        }
+
+        h6 {
+            font-size: 1rem;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+        }
+
+        p {
+            margin-top: .7rem;
+        }
+
+        blockquote {
+            margin: 1rem 0;
+            padding-left: .6rem;
+            border-left: 5px solid #ddd;
+            color: #555;
+        }
+
+        pre {
+            color: #444;
+            overflow: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #f6f6f6;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -webkit-box-shadow: rgba(0, 0, 0, .07) 0 1px 2px inset;
+        }
+
+        pre.green {
+            background-color: #dff0d8;
+            border-color: #d8e9d2;
+        }
+
+        pre.blue {
+            background-color: #d9edf7;
+            border-color: #d0e3ed;
+        }
+
+        pre.yellow {
+            background-color: #fcf8e3;
+            border-color: #f2eeda;
+        }
+
+        pre.red {
+            background-color: #f2dede;
+            border-color: #e7d4d4;
+        }
+
+        pre.gray {
+            background-color: #eeeeee;
+            border-color: #dddddd;
+        }
+
+        code {
+            font: 0.6rem Consolas, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+        }
+
+        p code {
+            padding: 0 .2em;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+        }
+
+        ul {
+            margin: 0 0 0 2.5rem;
+        }
+
+        ol {
+            margin: 0 0 0 2.5rem;
+        }
+
+        ol ol, ol ul, ul ol, ul ul {
+            margin-left: 2rem;
+        }
+
+        table {
+            text-align: center;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: .5rem auto;
+        }
+
+        table th {
+            padding: .2rem 1rem;
+            border-bottom: 1px solid #bbb;
+        }
+
+        table td {
+            padding: .2rem 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        a {
+            color: #4183c4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a code, a:link code, a:visited code {
+            color: #4183c4;
+        }
+
+        img {
+            max-width: 100%;
+            border: 0;
+        }
+
+        @media screen and (min-width: 768px) {
+            body {
+                margin: 10px auto;
+                width: 748px;
+            }
+        }
+
+        @media print {
+            h1, h1:first-child {
+                font-size: 3rem;
+                margin-top: 18rem;
+                padding-top: 0;
+                border-top-style: none;
+            }
+        }
+
+    </style>
+
+    <style type="text/css">
+
+        .hljs {
+            display: block;
+            overflow-x: auto;
+            padding: 0.5em;
+            background: #fff;
+            color: black;
+        }
+
+        /* Gray DOCTYPE selectors like WebKit */
+        .xml .hljs-meta {
+            color: #c0c0c0;
+        }
+
+        .hljs-comment,
+        .hljs-quote {
+            color: #389438;
+        }
+
+        .hljs-tag,
+        .hljs-attribute,
+        .hljs-keyword,
+        .hljs-selector-tag,
+        .hljs-literal,
+        .hljs-name {
+            color: #aa0d91;
+        }
+
+        .hljs-variable,
+        .hljs-template-variable {
+            color: #3F6E74;
+        }
+
+        .hljs-code,
+        .hljs-string,
+        .hljs-meta-string {
+            color: #d1a10a;
+        }
+
+        .hljs-regexp,
+        .hljs-link {
+            color: #0E0EFF;
+        }
+
+        .hljs-title {
+            color: #ff1515;
+        }
+
+        .hljs-symbol,
+        .hljs-bullet,
+        .hljs-number {
+            color: #d1a10a;
+        }
+
+        .hljs-section,
+        .hljs-meta {
+            color: #643820;
+        }
+
+        .hljs-class .hljs-title,
+        .hljs-type,
+        .hljs-built_in,
+        .hljs-builtin-name,
+        .hljs-params {
+            color: #aa0d91;
+        }
+
+        .hljs-attr {
+            color: #836C28;
+        }
+
+        .hljs-subst {
+            color: #000;
+        }
+
+        .hljs-formula {
+            background-color: #eee;
+            font-style: italic;
+        }
+
+        .hljs-addition {
+            background-color: #baeeba;
+        }
+
+        .hljs-deletion {
+            background-color: #ffc8bd;
+        }
+
+        .hljs-selector-id,
+        .hljs-selector-class {
+            color: #9b703f;
+        }
+
+        .hljs-doctag,
+        .hljs-strong {
+            font-weight: bold;
+        }
+
+        .hljs-emphasis {
+            font-style: italic;
+        }
+
+    </style>
+    <script>
+        document.title = decodeURI(location.pathname.slice(location.pathname.lastIndexOf('/') + 1, location.pathname.lastIndexOf('.html') == -1 ? undefined : location.pathname.lastIndexOf('.html')));
+        console.log('\n\n\n\nWelcome to contact >>> frcoder.lh@hotmail.com <<< for any further question.\n\n\n\n\n');
+    </script><title>out</title>
+    <link rel="stylesheet" href="../../Downloads/styles/dark.css">
+</head>
+<body><h1><a href="http://md.littletools.ml"><img src="https://md.littletools.ml/image/favicon.ico" alt=""> Markdown Online 欢迎文档</a></h1>
 <h2 id="第一章">一、markdown语法简要说明</h2>
 <h3>1. 标题</h3>
 <h4>简单标题</h4>
-<pre><code>#       一级标题h1（章标题、文章标题）
-##      二级标题h2（节标题）
-###     三级标题h3（内容标题）
-####    四级标题h4（关键步骤( 按需求添加 )）
-#####   五级标题h5（每个步骤下的具体流程的节点( 按需求添加 )）
-</code></pre><h4>锚标题</h4>
-<pre><code>## 一、markdown语法简要说明@{第一章}
+<pre><code><span class="hljs-meta">#</span><span class="bash">       一级标题h1（章标题、文章标题）</span>
+<span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">#      二级标题h2（节标题）</span></span>
+<span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">##     三级标题h3（内容标题）</span></span>
+<span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">###    四级标题h4（关键步骤( 按需求添加 )）</span></span>
+<span class="hljs-meta">#</span><span class="bash"><span class="hljs-comment">####   五级标题h5（每个步骤下的具体流程的节点( 按需求添加 )）</span></span>
+</code></pre>
+<h4>锚标题</h4>
+<pre class="blue"><code><span class="hljs-section">## 一、markdown语法简要说明@{第一章}</span>
 
 链接方法：
-[查看第一章](#第一章)
-</code></pre><h3>2. 加粗，斜体</h3>
+[<span class="hljs-string">查看第一章</span>](<span class="hljs-link">#第一章</span>)
+</code></pre>
+<h3>2. 加粗，斜体</h3>
 <p><strong>加粗</strong><br><strong>加粗</strong><br><em>斜体</em><br><em>斜体</em></p>
-<pre><code>**加粗**
-__加粗__
-*斜体*
-_斜体_
-</code></pre><h3>3. 链接，图片</h3>
+<pre class="green"><code><span class="hljs-strong">**加粗**</span>
+<span class="hljs-strong">__加粗__</span>
+<span class="hljs-emphasis">*斜体*</span>
+<span class="hljs-emphasis">_斜体_</span>
+</code></pre>
+<h3>3. 链接，图片</h3>
 <p><a href="#第一章" target="_self">查看第一章</a></p>
 <p><a href="http://www.baidu.com">百度超链接</a></p>
 <p><a href="http://www.baidu.com" title="出自www.baidu.com">常用语参考文献的，带提示的超链接</a></p>
 <p><img src="" alt="百度图标，在链接失效的时候显示，本文字"></p>
 <p><img src="https://www.baidu.com/img/baidu_jgylogo3.gif" alt="百度图标，在链接失效的时候显示，本文字"></p>
 <p><a href="http://www.baidu.com"><img src="https://www.baidu.com/img/baidu_jgylogo3.gif" alt="百度图标，在链接失效的时候显示，本文字"></a></p>
-<pre><code>[查看第一章](#第一章)
+<pre class="yellow"><code>[<span class="hljs-string">查看第一章</span>](<span class="hljs-link">#第一章</span>)
 
-[百度超链接](http://www.baidu.com)
+[<span class="hljs-string">百度超链接</span>](<span class="hljs-link">http://www.baidu.com</span>)
 
-[常用语参考文献的，带提示的超链接][1]
-[1]:http://www.baidu.com "出自www.baidu.com"
+[<span class="hljs-string">常用语参考文献的，带提示的超链接</span>][<span class="hljs-symbol">1</span>]
+[<span class="hljs-symbol">1</span>]:<span class="hljs-link">http://www.baidu.com "出自www.baidu.com"</span>
 
-![百度图标，在链接失效的时候显示，本文字]()
+![<span class="hljs-string">百度图标，在链接失效的时候显示，本文字</span>](<span class="hljs-link"></span>)
 
-![百度图标，在链接失效的时候显示，本文字](https://www.baidu.com/img/baidu_jgylogo3.gif)
+![<span class="hljs-string">百度图标，在链接失效的时候显示，本文字</span>](<span class="hljs-link">https://www.baidu.com/img/baidu_jgylogo3.gif</span>)
 
-[![百度图标，在链接失效的时候显示，本文字](https://www.baidu.com/img/baidu_jgylogo3.gif)](http://www.baidu.com)
-</code></pre><h3>4. 引用</h3>
+[<span class="hljs-string">![百度图标，在链接失效的时候显示，本文字</span>](<span class="hljs-link">https://www.baidu.com/img/baidu_jgylogo3.gif</span>)](<span class="hljs-link">http://www.baidu.com</span>)
+</code></pre>
+<h3>4. 引用</h3>
 <blockquote>
 <p>这是一段引用<br>第二行可以不写尖括号<br>换行的话，要在上一行结尾加两个空格</p>
 </blockquote>
-<pre><code>&gt; 这是一段引用  
+<pre class="red"><code><span class="hljs-quote">&gt; 这是一段引用  </span>
 第二行可以不写尖括号  
 换行的话，要在上一行结尾加两个空格
-</code></pre><h3>5. 层次</h3>
+</code></pre>
+<h3>5. 层次</h3>
 <ol>
 <li>第一节</li>
 <li>第二节<ol>
@@ -350,16 +702,17 @@ _斜体_
 </li>
 <li>第三节</li>
 </ol>
-<pre><code>1. 第一节
-2. 第二节
-    1. 第一小节（推荐每层次缩进四个空格)  
-    2. 第二小节  
-        1. 第一小小节
-        2. 第二小小节
-        3. 第三小小节
-    3. 第三小节
-3. 第三节
-</code></pre><ul>
+<pre class="gray"><code><span class="hljs-bullet">1.</span> 第一节
+<span class="hljs-bullet">2.</span> 第二节
+<span class="hljs-bullet">    1.</span> 第一小节（推荐每层次缩进四个空格)  
+<span class="hljs-bullet">    2.</span> 第二小节  
+<span class="hljs-bullet">        1.</span> 第一小小节
+<span class="hljs-bullet">        2.</span> 第二小小节
+<span class="hljs-bullet">        3.</span> 第三小小节
+<span class="hljs-bullet">    3.</span> 第三小节
+<span class="hljs-bullet">3.</span> 第三节
+</code></pre>
+<ul>
 <li>第一节</li>
 <li>第二节<ul>
 <li>第一小节（推荐每层次缩进四个空格)  </li>
@@ -374,16 +727,17 @@ _斜体_
 </li>
 <li>第三节</li>
 </ul>
-<pre><code>+ 第一节
-+ 第二节
-    + 第一小节（推荐每层次缩进四个空格)  
-    + 第二小节  
-        + 第一小小节
-        + 第二小小节
-        + 第三小小节
-    + 第三小节
-+ 第三节
-</code></pre><h3>6. 表格</h3>
+<pre><code class="lang-Markdown"><span class="hljs-bullet">+</span> 第一节
+<span class="hljs-bullet">+</span> 第二节
+<span class="hljs-bullet">    +</span> 第一小节（推荐每层次缩进四个空格)  
+<span class="hljs-bullet">    +</span> 第二小节  
+<span class="hljs-bullet">        +</span> 第一小小节
+<span class="hljs-bullet">        +</span> 第二小小节
+<span class="hljs-bullet">        +</span> 第三小小节
+<span class="hljs-bullet">    +</span> 第三小节
+<span class="hljs-bullet">+</span> 第三节
+</code></pre>
+<h3>6. 表格</h3>
 <table>
 <thead>
 <tr>
@@ -405,11 +759,12 @@ _斜体_
 </tr>
 </tbody>
 </table>
-<pre><code>|表头|表头|表头|
-|-|-|-|
-|单元格|单元格|单元格|
-|单元格|单元格|单元格|
-</code></pre><table>
+<pre class="blue"><code class="lang-Markdown"><span class="hljs-params">|表头|</span>表头<span class="hljs-params">|表头|</span>
+<span class="hljs-params">|-|</span>-<span class="hljs-params">|-|</span>
+<span class="hljs-params">|单元格|</span>单元格<span class="hljs-params">|单元格|</span>
+<span class="hljs-params">|单元格|</span>单元格<span class="hljs-params">|单元格|</span>
+</code></pre>
+<table>
 <thead>
 <tr>
 <th style="text-align:left">表头（居左）</th>
@@ -430,14 +785,43 @@ _斜体_
 </tr>
 </tbody>
 </table>
-<pre><code>|表头（居左）|表头（居中）|表头（居右）|
-|:-|:-:|-:|
-|单元格|单元格|单元格|
-|单元格|单元格|单元格|
-</code></pre><h3>7. 分隔符</h3>
+<pre><code><span class="hljs-params">|表头（居左）|</span>表头（居中）<span class="hljs-params">|表头（居右）|</span>
+<span class="hljs-params">|:-|</span><span class="hljs-symbol">:-</span><span class="hljs-symbol">:|-</span><span class="hljs-symbol">:|</span>
+<span class="hljs-params">|单元格|</span>单元格<span class="hljs-params">|单元格|</span>
+<span class="hljs-params">|单元格|</span>单元格<span class="hljs-params">|单元格|</span>
+</code></pre>
+<h3>7. 分隔符</h3>
 <hr>
-<pre><code>---
-</code></pre><h2>二、样例文章</h2>
+<pre><code>
+<span class="hljs-meta">---</span>
+</code></pre>
+<h3>8. 代码块</h3>
+<pre><code>用<span class="hljs-code">~~~或者```包围住
+
+带颜色的代码块：~~~</span>@blue
+</code></pre>
+<h4>标识语言的代码块：</h4>
+<pre><code class="lang-java">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+</code></pre>
+<h4>带颜色的代码块：</h4>
+<pre class="blue"><code>```<span class="hljs-keyword">@blue</span>：蓝色
+</code></pre>
+<pre class="green"><code>```<span class="hljs-keyword">@green</span>：绿色
+</code></pre>
+<pre class="yellow"><code>```<span class="hljs-keyword">@yellow</span>：黄色
+</code></pre>
+<pre class="red"><code>```<span class="hljs-keyword">@red</span>：红色
+</code></pre>
+<pre class="gray"><code>```<span class="hljs-keyword">@gray</span>：灰色
+</code></pre>
+<h4>标识语言的且带颜色的代码块：</h4>
+<pre class="green"><code class="lang-java">    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+</code></pre>
+<h2>二、样例文章</h2>
 <p>请欣赏样例文章：<a href="#走进科学" target="_self">《走进科学》</a></p>
 <h1 id="走进科学">走进科学</h1>
 <h2>第一章 什么是科学</h2>
